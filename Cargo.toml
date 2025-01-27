@@ -1,0 +1,8 @@
+[package]
+name = "image_resizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.27", features = ["derive"] }
+image = "0.25.5"
