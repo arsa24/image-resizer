@@ -6,8 +6,8 @@ use std::{env, fs, io, path::Path};
 
 fn main() -> io::Result<()> {
     let matches = Command::new("Image Resizer")
-        .version("0.1")
-        .author("Lorem ipsum")
+        .version("1.0")
+        .author("Arsa")
         .arg(
             Arg::new("file")
                 .help("Path to the input image file")
